@@ -1,10 +1,10 @@
-import NotImplementedException from './notImplementedException';
-import RequestErrorException from './requestErrorException';
+import notImplementedException from './notImplementedException';
+import requestErrorException from './requestErrorException';
 
 const main = {
-  NotImplementedException,
-  RequestErrorException
+  notImplementedException,
+  requestErrorException
 };
 
-export { main, NotImplementedException, RequestErrorException };
+export { main, notImplementedException, requestErrorException };
 export default main;

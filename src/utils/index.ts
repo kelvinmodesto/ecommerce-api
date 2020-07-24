@@ -1,10 +1,10 @@
-import Exceptions, { NotImplementedException, RequestErrorException } from './exceptions';
+import Exceptions, { notImplementedException, requestErrorException } from './exceptions';
 
 const main = {
   Exceptions,
-  NotImplementedException,
-  RequestErrorException
+  notImplementedException,
+  requestErrorException
 };
 
-export { main, Exceptions, NotImplementedException, RequestErrorException };
+export { main, Exceptions, notImplementedException, requestErrorException };
 export default main;

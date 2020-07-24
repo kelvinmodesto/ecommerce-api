@@ -1,5 +1,5 @@
-export default class RequestErrorException extends Error {
-  constructor() {
-    super('Request Error');
-  }
-}
+const requestErrorException = () => {
+  throw new Error('Request Error Exception');
+};
+
+export default requestErrorException;

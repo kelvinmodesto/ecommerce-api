@@ -1,5 +1,5 @@
-export default class NotImplementedException extends Error {
-  constructor() {
-    super('Not Implemented Exception');
-  }
-}
+const notImplementedException = () => {
+  throw new Error('Not Implemented Exception');
+};
+
+export default notImplementedException;
